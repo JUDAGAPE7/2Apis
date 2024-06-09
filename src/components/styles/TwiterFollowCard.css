@@ -1,0 +1,40 @@
+.main__one {
+  width: 35em;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+header {
+  margin: 2em;
+  width: 100%; /* Ajustar al 100% del ancho del contenedor principal */
+  max-width: calc(100% - 4em); /* Restar el margen del header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__image {
+  width: 5em;
+  height: 4em;
+  border-radius: 100%;
+}
+
+.info {
+  color: aliceblue;
+}
+
+.info span::before {
+  content: "\0040"; /* Código Unicode para @ */
+  margin-right: 0; /* Espacio entre el @ y el nombre de usuario */
+}
+
+strong {
+  margin-right: 0.8em;
+}
+
+button {
+  border-radius: 2em;
+  display: flex;
+}
